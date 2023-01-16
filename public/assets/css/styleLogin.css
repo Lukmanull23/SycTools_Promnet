@@ -1,0 +1,65 @@
+header{
+    
+    height: 40px;
+}
+#logo{
+    float: left;
+    margin-left: 160px;
+}
+
+.login-form{
+    width: 484px;
+    top: 100px;
+    left: 200px;
+    transform: translate(50%);
+    position: absolute;
+
+}
+h1{
+    line-height: 80px;
+    font-weight: 200px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+}
+
+form{
+    padding: 15px 10px 15px 10px;
+}
+
+input{
+    font-size: 16px;
+    width: 100%;
+    padding: 10px 10px;
+    border-radius: 5px;
+    background-color: #EDEDED;
+    border-color: #EDEDED;
+}
+
+p{
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+button{
+    font-size: 25 px;
+    width: 50%;
+    height: 45px;
+    border-radius: 5px;
+    margin-left: 120px;
+    border: solid 1px;
+    background-color: #84B67C;
+    border-color: #84B67C;
+    cursor: pointer;
+}
+
+#signup{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+

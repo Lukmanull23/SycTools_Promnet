@@ -1,0 +1,88 @@
+body{
+    font-style: normal;
+}
+/* Navbar */
+header{
+    height: 62px;
+    border-color: black;
+}
+
+nav{
+    text-align: right;
+    position: sticky;
+    overflow: auto;
+    padding: 5px;
+    margin-right: 160px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav img{
+    float: left;
+    margin-left: 160px;
+}
+
+li img{
+    height: 30px;
+    width: 30px;
+}
+
+/* Produk */
+
+section{
+    margin-top: 50px;
+}
+
+.list1{
+    width: 1110px;
+    height: 293px;
+    display: flex;
+    float: left;
+    margin-left: 110px;
+    position: static;
+
+}
+
+.list2{
+    width: 1110px;
+    height: 293px;
+    display: flex;
+    float: left;
+    margin-left: 110px;
+    position: static;
+
+}
+
+.barang1{
+    width: 194px;
+    height: 283px;
+    border: 1px #8A8A8A solid;
+    margin-top: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.barang img{
+    width: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    float: left;
+    margin-left: 8px;
+}
+
+.nama-barang{
+    margin-left: 8px;
+}
+
+.harga{
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+}

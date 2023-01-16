@@ -1,0 +1,158 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    border-color: black;
+    
+}
+
+nav{
+    text-align: right;
+    position: sticky;
+    overflow: auto;
+    padding: 5px;
+    margin-right: 160px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav img{
+    float: left;
+    margin-left: 160px;
+}
+
+li img{
+    height: 30px;
+    width: 30px;
+}
+
+:root{
+    --border-faint: #EDEDED; 
+    --white-button: #FFFFFF;
+    --green-button: #84B67C; 
+
+    --Button-Hover: #1DCE6E;
+    --Button-Klik: #0FBF60;
+    --Button-Klik2: #B8C7B2; 
+}
+@font-face{
+    font-family: Poppins-Bold; 
+    src: url(assets/font/Poppins-Bold.ttf);
+}
+@font-face{
+    font-family: Poppins-Regular; 
+    src: url(assets/font/Poppins-Regular.ttf);
+}
+@font-face{
+    font-family: Poppins-Medium; 
+    src: url(assets/font/Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: Poppins-Light; 
+    src: url(assets/font/Poppins-Light.ttf);
+}
+.body{
+    font-family: Poppins-Regular; 
+}
+.content{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -100px;
+}
+.content-box{
+    margin-top: 120px; 
+    width: 1121px; 
+}
+.title{
+    display: flex;
+    flex-direction: row;
+}
+.addbutton{
+    margin-top: 40px; 
+    width: 150px; 
+    height: 40px; 
+    background-color: var(--green-button);
+    border-radius: 4px;
+    border: solid var(--white-button) 2px;
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins-Bold;
+    font-size: 15px; 
+    color: var(--white-button);
+    transition: all ease-in-out 175ms; 
+    cursor: pointer; 
+}
+.barangku-content{
+    width: 1121px; 
+}
+.barang{
+    width: 210px;
+    height: 283px;
+    border-radius: 2px;
+    border: var(--border-faint) solid 1px;
+    margin: 4.7px; 
+    display: inline-block;
+    font-family: Poppins-Regular;
+}
+.image{
+    width: 210px; 
+    height: 210px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+.desk{
+    margin-top: -10px; 
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 11px;
+}
+.delete-harga{
+    display: flex;
+    margin-top: 20px;
+}
+.nama{
+    font-size: 11px;
+}
+.harga{
+    font-size: 10px;
+    display: flex;
+    width: 190px; 
+    justify-content: right;
+}
+.gambar{
+    width: 194px; 
+    height: 194px;
+}
+.hapus{
+    height: 18px;  
+    transition: all ease-in-out 175ms; 
+    cursor: pointer; 
+}
+h1{
+    font-family: Poppins-Bold;
+    font-size: 40px;
+    margin-right: 30px; 
+}
+.addbutton:hover{
+    background-color: var(--Button-Hover);
+    border: var(--Button-Klik2) 2px solid;
+}
+.addbutton:active{
+    background-color: var(--Button-Klik);
+    border: var(--white-button) 2px solid;
+}

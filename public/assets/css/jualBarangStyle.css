@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 100px;
+    border-color: black;
+    
+}
+
+nav{
+    text-align: right;
+    position: sticky;
+    overflow: auto;
+    padding: 5px;
+    margin-right: 160px;
+}
+
+nav li{
+    display: inline;
+    list-style-type: none;
+    margin: 10px;
+}
+
+nav img{
+    float: left;
+    margin-left: 160px;
+}
+
+li img{
+    height: 30px;
+    width: 30px;
+}
+
+#cart{
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+#container{
+    height: 700px;
+    width: 1099px;
+    margin-left: 130px;
+}
+
+#boxLeft{
+    float: left;
+    width: 423px;
+    height: 500px;
+    margin-top: 25px;
+    margin-left: 20px;
+}
+
+#boxLeft p{
+    width: 415px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+#boxRight{
+    float: right;
+    padding-top: 60px;
+}
+
+#btnJual{
+    background-color: #84B67C;
+    height: 56px;
+    width: 200px;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+label{
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    width: 415px;
+    height: 50px;
+    margin: 0;
+}
+
+#hrgBarang{
+    margin-top: 14px;
+}
+
+.btnWarning{
+    position: relative;
+    padding: 11px 16px;
+    font-size: 15px;
+    line-height: 1.5;
+    border-radius: 3px;
+    color: #fff;
+    background-color: #D9D9D9;
+    border: 0;
+    overflow: hidden;
+    transition: 0.2ms;
+    width: 423px;
+    height: 98px;
+    border: solid 1px black;
+}
+
+.btnWarning input[type="file"]{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scale(3);
+    opacity: 0;
+}
+
+.btnWarning:hover{
+    background-color: #84B67C;
+}
+
+#pilihKategori{
+    word-spacing: 10px;
+}
+
+.btnKT{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnKT:hover{
+    background-color: #84B67C;
+}
+
+.btnKT:focus{
+    background-color: #84B67C;
+}
+
+.btnKT:active{
+    background-color: #84B67C;
+}
+
+#btnKK{
+    margin-left: 2px;
+}
+
+
+#deskBarang input[name="deskBarang"]{
+    height: 98px;
+    border-radius: 10px;
+}
+
+#btnPkb{
+    margin-bottom: 14px;
+}
+
